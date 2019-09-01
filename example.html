@@ -4,114 +4,75 @@
 <title>TP app moviles</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<link rel = "stylesheet" type = "text/css" href="css/styles.css" />
 
-/* Style the header */
-
-header>div {
-  
-  margin: 0px;
-  background-color: #666;
-  padding: 47px;
-  padding-left: 140px;
-  text-align: center;
-  font-size: 45px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 20%;
-  height: 100%;
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 80%;
-  background-color: #f1f1f1;
-}
-
-article>div{
-    display: inline-block;
-    margin: 50px;
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-header>img{
-  position: absolute;
-  margin: 10px;
-  height: 13%;
-  width: 130px;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
 </head>
+
+
 <body>
 
 <header>
-  <img src="img/descarga.jpg"/>
-  <div>Compumundo Hiper MegaRed</div>
+  <img src="img/1200px-Xiaomi_logo.svg.png"/>
+  <div><b>Xiaomi</b></div>
 </header>
 
 <section>
   <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
+      <a href="#miphones">Mi Phones</a>
+      <a href="#pocophone">POCOPHONE</a>
+      <a href="#redmiphones">Redmi Phones</a>
+      <a href="#mitv">Mi TV</a>
+      <a href="#smartdevices">Smart Devices</a>
+      <a href="#mipowerbank">Mi Power Bank</a>
   </nav>
   
   <article>
-    <div> <img src="img/descarga.jpg"/> </div>
-    <div> <img src="img/descarga.jpg"/> </div>
-    <div> <img src="img/descarga.jpg"/> </div>
-    <div> <img src="img/descarga.jpg"/> </div>
-    <div> <img src="img/descarga.jpg"/> </div>
-    <div> <img src="img/descarga.jpg"/> </div>
+    <div id="miphones">
+      <p>Mi Phones</p>
+      <div> <img src="img/phones/mi9se.jpg"/> </div>
+      <div> <img src="img/phones/mi9t.jpg"/> </div>
+      <div> <img src="img/phones/mia3.png"/> </div>
+    </div>
+
+    <div id="pocophone">
+      <p>POCOPHONE</p>
+        <div> <img src="img/phones/pocophonef1.jpg"/> </div>
+    </div>
+
+    <div id="redmiphones">
+      <p>Redmi Phones</p>
+        <div> <img src="img/phones/redmi7.png"/> </div>
+        <div> <img src="img/phones/redminote6pro.jpg"/> </div>
+        <div> <img src="img/phones/redminote7.png"/> </div>
+    </div>
+
+    <div id="mitv">
+      <p>Mi TV</p>
+        <div> <img src="img/phones/miboxs.jpg"/> </div>
+        <div> <img src="img/phones/milaserprojector150.png"/> </div>
+        <div> <img src="img/phones/mitv465inch.jpg"/> </div>
+    </div>
+
+    <div id="smartdevices">
+      <p>Smart Devices</p>
+        <div> <img src="img/phones/miband4.jpg"/> </div>
+        <div> <img src="img/phones/miwirelessheadphones.jpg"/> </div>
+        <div> <img src="img/phones/miscooter.jpg"/> </div>
+    </div>
+
+    <div id="mipowerbank">
+      <p>Mi Power Bank</p>
+        <div> <img src="img/phones/mipower5000mha.jpg"/> </div>
+        <div> <img src="img/phones/mipower1600mha.JPG"/> </div>
+        <div> <img src="img/phones/mipower1000mha.jpg"/> </div>
+    </div>
+
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>Copyright © 2010 - 2019 Xiaomi. All Rights Reserved</p>
 </footer>
 
 </body>
