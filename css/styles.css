@@ -11,6 +11,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2;
 }
 
 header>img{
@@ -36,11 +37,11 @@ nav {
   height: 100%;
   position: fixed;
   z-index: 1;
-  margin-top: 54px;
+  /*margin-top: 54px;*/
   left: 0;
   background: rgb(87, 84, 84);
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 nav>a {
@@ -67,11 +68,13 @@ article {
 article>div>div{
     display: inline-block;
     margin: 50px;
+    height: 300px;
+    width: 300px;
 }
 
 article>div>div>img{
-    height: 300px;
-    width: 300px;
+    max-height: 100%;
+    max-width: 100%;  
 }
 
 footer {
