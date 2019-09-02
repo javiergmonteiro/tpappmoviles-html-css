@@ -65,11 +65,17 @@ article {
   background-color: #ffffff;
 }
 
+article>div{
+  font-size: 20px;
+}
+
 article>div>div{
     display: inline-block;
-    margin: 30px;
+    font-size: 15px;
+    margin: 50px;
     height: 300px;
     width: 300px;
+    text-align: center;
 }
 
 article>div>div>img{
